@@ -1,0 +1,19 @@
+.todo__task,
+.todo__button {
+    margin-right: 10px;
+}
+
+.todo__task--complete {
+    text-decoration: line-through;
+}
+
+.todo__task-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.todo__checkbox {
+    order: -1;
+    margin-right: 10px;
+}
